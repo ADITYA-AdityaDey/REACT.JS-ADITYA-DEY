@@ -1,9 +1,17 @@
 // Boilerplate Code
 
 import React from "react"; // Hooks, Stateless App
+import Title from "../components/Title";
+import UnorderedList from "../components/UnorderedList";
 
 function About() {
-    return <h1>This is About Screen....</h1>;
+    return <div>
+        <Title name="C++"/>
+        <Title name="JavaScript"/>
+        <Title name="PYTHON"/>
+        <UnorderedList />
+
+    </div>
 }
 
 export default About;
