@@ -6,9 +6,7 @@ import UnorderedList from "../components/UnorderedList";
 
 function About() {
     return <div>
-        <Title name="C++"/>
-        <Title name="JavaScript"/>
-        <Title name="PYTHON"/>
+        <Title name={"AD"} email={"123email@email.com"} id={"1111"} />
         <UnorderedList />
 
     </div>
