@@ -16,4 +16,4 @@ let data = [
     },
 ];
 
-export default UserData;
+export default data;

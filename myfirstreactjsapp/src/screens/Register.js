@@ -51,6 +51,7 @@
 
 // useMemo() hook
 import React, { useMemo, useState } from 'react'
+import { Link } from 'react-router-dom';
 
 const expensiveCalculation = (num) => {
   console.log("Calculating....")
@@ -92,6 +93,8 @@ const addTodo = () => {
         <h2>Expensive Calculation</h2>
         {calculation}
       </div>
+      {/* <button>Take Me to UserList</button> */}
+      <Link to="/UserList">Take Me to UerList Screen</Link>
     </div>
   );
 }
